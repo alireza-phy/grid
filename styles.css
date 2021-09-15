@@ -95,3 +95,40 @@ body {
     width: 32vw;
     height: 32vh;
 }
+
+@media screen and (max-width: 520px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sidebar{
+        height: 4.2vh;
+        overflow: hidden;
+        padding:2.5vw;
+
+    }
+    .sidebar .name{
+        font-size: 4.4vw;
+        display: inline;
+        /*line-height: 10vw;*/
+    }
+    .header{
+        font-size: 4vw;
+        line-height: 6vw;
+    }
+    .header h4 {
+        font-size: 2.5vw;
+
+    }
+    .gallery{
+        display: flex;
+        flex-direction: column;
+    }
+    .gallery img{
+        width: 100%;
+        height: auto;
+        width: 75vw;
+        margin-top: 1vw;
+    }
+}
